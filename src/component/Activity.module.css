@@ -3,7 +3,7 @@
     grid-template-columns: auto auto auto;
     gap: 1em;
    justify-content: center;
-   background: rgb(25,8,37);
-   background: linear-gradient(90deg, rgba(25,8,37,1) 0%, rgba(69,65,65,1) 50%, rgba(255,77,77,1) 100%);
+   background: rgb(154, 142, 162);
+   /* background: linear-gradient(90deg, rgb(142, 121, 157) 0%, rgb(215, 179, 179) 50%, rgb(222, 98, 98) 100%); */
  
   }

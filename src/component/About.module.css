@@ -1,7 +1,7 @@
 .main{
   height: 115vh;
-  background: rgb(25,8,37);
-  background: linear-gradient(90deg, rgba(25,8,37,1) 0%, rgba(69,65,65,1) 50%, rgba(255,77,77,1) 100%);
+  background: rgb(149, 144, 153);
+   
 }
 
 .aboutUp{
@@ -44,7 +44,7 @@
   /* position: fixed; */
   right: 3em;
   /* margin-left: 1.5em; */
-  background-color: red;
+  background-color: rgb(207, 190, 190);
   /* border-radius: 20%; */
   box-shadow: 1px 1px  5px white;
   color: white;

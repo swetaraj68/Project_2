@@ -3,7 +3,7 @@
     top: 0;
     width: 100%;
    
-     background-color: rgb(139, 180, 180,0.05);
+     background-color: rgba(33, 78, 78, 0.05);
      display: flex;
      justify-content: space-evenly;
      height: 4vh;
