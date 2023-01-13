@@ -1,0 +1,79 @@
+.main{
+  height: 115vh;
+  background: rgb(25,8,37);
+  background: linear-gradient(90deg, rgba(25,8,37,1) 0%, rgba(69,65,65,1) 50%, rgba(255,77,77,1) 100%);
+}
+
+.aboutUp{
+  
+  display: flex;
+  justify-content:space-evenly;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 5em;
+
+}
+.aboutDown{
+  display: flex;
+  justify-content:space-evenly;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 2em;
+  flex-direction: row-reverse;
+ 
+}
+
+.vdoone{
+  border: 2px solid;
+  box-shadow: 2px 2px 2px black;
+  height: 290px;
+}
+.vdotwo{
+  composes : vdoone
+}
+
+.content{
+  width: 50%;
+  /* height: 50vh; */
+  font-size: 1.3em;
+  font-family: Colonna MT;
+
+}
+
+.joibus{
+  /* position: fixed; */
+  right: 3em;
+  /* margin-left: 1.5em; */
+  background-color: red;
+  /* border-radius: 20%; */
+  box-shadow: 1px 1px  5px white;
+  color: white;
+  padding: 0.5em;
+ 
+}
+
+@media screen and (max-width : 700px){
+.main{
+  padding-top: 5em;
+  height: 250vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.aboutUp{
+  display: block;
+  width: 54.5%;
+}
+.aboutDown{
+  display: block;
+  width: 54.5%;
+}
+.content{
+  width: 100%;
+  font-size: 1em;
+}
+
+
+}

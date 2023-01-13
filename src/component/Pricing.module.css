@@ -1,0 +1,118 @@
+.wrap{
+  padding: 9.5em  4em 4em 4em;
+  display: flex;
+  border: 2px solid black;
+  height: 70vh;
+flex-direction: row;
+justify-content: space-evenly;
+width: 91.33%;
+background: rgb(25,8,37);
+  background: linear-gradient(90deg, rgba(25,8,37,1) 0%, rgba(69,65,65,1) 50%, rgba(255,77,77,1) 100%);
+}
+.day{
+ /* padding-top: 4em; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 0px solid black;
+  height: 60vh;
+  width: 20%;
+  background: rgb(144,149,235);
+  background: linear-gradient(166deg, rgba(144,149,235,1) 4%, rgba(89,130,209,1) 48%, rgba(62,252,160,0.6393907904958859) 70%);
+color: white;
+border-radius: 1em;
+}
+
+.day:hover {
+  /* padding-top: 1em ; */
+  /* height: 70vh; */
+  transform: scale(1.2);
+  color: black;
+  background: lightgray;
+}
+
+
+.month{
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 0px solid black;
+  height: 60vh;
+  width: 20%;
+  background: rgb(144,149,235);
+background: linear-gradient(166deg, rgba(144,149,235,1) 4%, rgba(89,130,209,1) 48%, rgba(62,252,160,0.6393907904958859) 70%);
+color: white;
+
+}
+.month:hover{
+  transform: scale(1.2);
+  /* height: 70vh; */
+  color: black;
+  background: lightgray;
+}
+
+.price{
+  font-size:4em;
+}
+ .price:hover{
+  font-size:4em;
+  color: green;
+}
+.content{
+  width: 40%;
+  color: white;
+  
+ 
+}
+
+.btn{
+  width: 11em;
+  padding: 0.7em;
+  
+}
+.list{
+  list-style: none;
+ 
+}
+
+.li{
+  
+  margin-top: 0.6em;
+}
+
+@media screen and (max-width : 700px){
+  .wrap{
+    width: 201%;
+    height: 350vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .day , .month{
+    width: 90%;
+    height: 150vh;
+    margin-top: 8em;
+  }
+  .price{
+    font-size: 6em;
+  }
+.listm{
+  font-size: 3em;
+}
+.btn{
+ background: red;
+ box-shadow: 5px 5px black;
+  height: 10vh;
+  font-size: 2em;
+  color: white;
+}
+.content{
+  margin-top: 9em;
+  width: 100%;
+}
+
+}

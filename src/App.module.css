@@ -1,0 +1,92 @@
+body{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box{
+  background-image: url(https://img.freepik.com/free-photo/young-fitness-man-studio_7502-5007.jpg?t=st=1673332233~exp=1673332833~hmac=36b9e3b22cb839e6564ebab16f18d1026fc053c19771ee8057c6397c3c238e32
+  );
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.content{
+  width: 72%;
+  font-size: 0.7em;
+  /* margin-top: 20em; */
+  padding-top: 40em;
+  margin-left: 2em;
+  color: white;
+  font-weight: bolder;
+  font-family: monospace;
+  text-shadow: 1px 1px black;
+  
+  
+}
+.joibus{
+  margin-left: 1.5em;
+  background-color: red;
+  /* border-radius: 20%; */
+  box-shadow: 4px 4px  10px white;
+  color: white;
+  padding: 0.5em;
+ 
+}
+
+.joilogin{
+  margin-left: 1.5em;
+  background-color: rgb(0, 73, 37);
+  /* border-radius: 20%; */
+  box-shadow: 4px 4px  10px white;
+  color: white;
+  padding: 0.5em;
+} 
+.nav{
+  position: fixed;
+  top: 0%;
+}
+.quotes{
+  color:  red;
+}
+
+.linkBtn{
+  border: 1px solid black;
+  text-decoration: none;
+  margin-left: 1.5em;
+  background-color: red;
+  /* border-radius: 20%; */
+  box-shadow: 4px 4px  10px white;
+  color: white;
+  padding: 0.5em;
+}
+
+/* .wrap{
+  position: fixed;
+  top:-11em;
+  width: 70%;
+} */
+
+@media screen and (max-width : 700px){
+  .box{
+    width: 235%;
+    height: 220vh ;
+  }
+
+  .content{
+    font-size: x-large;
+  }
+
+  .joibus{
+    width: 15em;
+    height: 6em;
+    border-radius: 2em;
+    box-sizing: border-box;
+    font-size: xx-large;
+    
+  }
+}
